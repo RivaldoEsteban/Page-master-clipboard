@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: hsl(210, 10%, 33%);
+}
+p {
+  color: hsl(201, 11%, 66%);
+}
+button {
+  color: whitesmoke;
+}
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+.header {
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.header-content {
+  padding: 150px 0;
+}
+.header-content img {
+}
+.header-content h1 {
+  font-size: 40px;
+  color: hsl(210, 10%, 33%);
+}
+.header-content p {
+  max-width: 620px;
+  margin: auto;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+}
+.header-content button {
+  margin: 40px 10px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 0;
+  color: whitesmoke;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.button-1 {
+  background: hsl(171, 66%, 44%);
+}
+.button-2 {
+  background: hsl(233, 100%, 69%);
+}
+.keep {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.keep h2 {
+  font-size: 30px;
+  color: hsl(210, 10%, 33%);
+}
+.keep p {
+  margin: auto;
+  max-width: 670px;
+  color: hsl(201, 11%, 66%);
+  font-size: 13px;
+}
+
+.attributes {
+  display: flex;
+  justify-content: center;
+}
+.attributes-text {
+  margin: 50px auto 50px 70px;
+  max-width: 340px;
+}
+.attributes-text p {
+  font-size: 16px;
+}
+.access {
+  text-align: center;
+}
+.access-text {
+  text-align: center;
+  margin: 150px auto 100px auto;
+}
+.access-text h2 {
+  font-size: 35px;
+}
+.access-text p {
+  max-width: 700px;
+  margin: auto;
+}
+.flow-text {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.flow-text h2 {
+  font-size: 35px;
+}
+.flow-content {
+  display: flex;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.blacklists {
+  margin: auto;
+  max-width: 560px;
+  margin: 0 20px;
+}
+.text {
+  margin: 0 20px;
+}
+.text p {
+  margin-top: 30px;
+}
+.sneak {
+  margin: 0 20px;
+}
+.sneak p {
+  margin-top: 30px;
+}
+.auspicios {
+  margin: 100px auto;
+  text-align: center;
+}
+.iconos {
+  margin: auto 45px;
+}
+.dispositivos {
+  text-align: center;
+  max-width: 750px;
+  margin: 150px auto;
+}
+.dispositivos h2 {
+  font-size: 35px;
+}
+.dispositivos p {
+  max-width: 700px;
+  margin: auto;
+}
+.dispositivos button {
+  margin: 40px 10px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 0;
+  color: whitesmoke;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.button-l {
+  background: hsl(171, 66%, 44%);
+}
+.button-r {
+  background: hsl(233, 100%, 69%);
+}
+.footer {
+  background: #f5f6f8;
+  display: flex;
+  padding: 0 50px;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 30px 120px;
+}
+.footer-content img {
+  display: block;
+  margin: 12.5px auto;
+  width: 60px;
+  height: 50px;
+}
+.text-1 {
+  margin: auto 60px;
+  display: block;
+}
+.text-2 {
+  margin: auto 60px;
+  display: block;
+}
+.text-3 {
+  margin: 0 60px;
+  display: block;
+}
+.icons {
+  margin: auto;
+}
+.fab {
+  margin: 10px;
+  font-size: 25px;
+  color: hsl(201, 11%, 66%);
+}
