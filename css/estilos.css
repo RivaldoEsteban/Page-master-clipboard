@@ -170,7 +170,7 @@ button {
 .footer-content {
   display: flex;
   justify-content: center;
-  max-width: 800px;
+
   margin: 30px 120px;
 }
 .footer-content img {
@@ -193,6 +193,7 @@ button {
 }
 .icons {
   margin: auto;
+  margin-left: 180px;
 }
 .fab {
   margin: 10px;
@@ -295,11 +296,16 @@ button {
     margin: 40px auto 20px;
   }
   .footer-content {
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
     display: block;
   }
+  .footer-content img {
+    margin-bottom: 50px;
+  }
   .icons {
     color: hsl(210, 10%, 33%);
+    margin: auto;
+    margin-top: 50px;
   }
 }
