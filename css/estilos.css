@@ -199,3 +199,107 @@ button {
   font-size: 25px;
   color: hsl(201, 11%, 66%);
 }
+
+@media screen and (max-width: 375px) {
+  body {
+  }
+  p {
+    font-size: 18px;
+  }
+  .header-content {
+    padding: 100px 0;
+  }
+  .header-content h1 {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .header-content p {
+    margin-bottom: 30px;
+  }
+  .header-content button {
+    padding: 20px 80px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .keep {
+    margin: 0 15px 70px;
+  }
+  .keep p {
+    font-size: 18px;
+  }
+  .attributes {
+    display: block;
+    margin: 0 15px;
+  }
+  .attributes img {
+    max-width: 100%;
+  }
+  .attributes-text {
+    text-align: center;
+    max-width: 330px;
+    margin: auto;
+  }
+  .attributes-text h3 {
+    font-size: 27px;
+  }
+  .attributes-text p {
+    font-size: 18px;
+  }
+  .access {
+    margin: 100px 15px;
+  }
+  .access img {
+    max-width: 100%;
+  }
+  .access-text {
+    margin-bottom: 70px;
+  }
+  .flow-content {
+    display: block;
+    margin: 0 15px 100px;
+  }
+  .blacklists {
+    margin: 45px auto;
+  }
+  .text {
+    margin: 45px auto;
+  }
+  .sneak {
+    margin: 45px auto;
+  }
+  .auspicios {
+    max-width: 200px;
+    margin: auto;
+  }
+  .iconos {
+    margin: 50px 0;
+  }
+  .dispositivos {
+    margin: 150px 15px;
+  }
+  .dispositivos button {
+    margin: 20px auto 10px;
+    padding: 15px 80px;
+    font-weight: 600;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .boton {
+    margin-top: 30px;
+  }
+  .button-r {
+    margin: 20px auto;
+  }
+  .button-l {
+    margin: 40px auto 20px;
+  }
+  .footer-content {
+    margin: auto;
+    text-align: center;
+    display: block;
+  }
+  .icons {
+    color: hsl(210, 10%, 33%);
+  }
+}
